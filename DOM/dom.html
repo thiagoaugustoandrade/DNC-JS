@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: rgb(12, 112, 242);
+            color: white;
+        }
+        div{
+            padding: 30px;
+        }
+    </style>
+</head>
+<body id="principal">
+    <div>
+        <h1>
+            Aprendendo DOM
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, odit impedit. Aliquam ut earum ab modi obcaecati ex dignissimos eius in perspiciatis, cum nesciunt. Harum fugiat earum dignissimos animi facere!</p>
+        <button>Clique aqui!</button>
+        <button>Clique aqui!</button>
+
+    </div>
+    <script>
+        var x = document.getElementById('principal')
+        x.style.background = 'black'
+        var y = document.getElementsByTagName('button')[1]
+        y.innerHTML = 'Thiago'
+    </script>
+</body>
+</html>
