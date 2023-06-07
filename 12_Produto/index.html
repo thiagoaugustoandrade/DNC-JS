@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="../desafio-lampada/imagens/logo.svg" width="100">
+        <img src="../imagens/logo.svg" width="100">
         <h1>Controle de Produtos</h1>
     </header>
     <main>
@@ -18,14 +18,14 @@
         <div class="card">
             <div class="inputpd">
                 <label>Nome do Produto</label>
-                <input type="text" id="pdNome" placeholder="Iphone">
+                <input type="text" id="pdNome" placeholder="Produto">
             </div>
             <div class="inputpd">
                 <label>Preço</label>
                 <input type="text" id="pdPreco" placeholder="R$ 00.00">
             </div>
             <button onclick="produto.Adicionar()">Adicionar</button>
-            <button>Cancelar</button>
+            <button onclick="produto.Cancelar()">Cancelar</button>
         </div>
         <div class="conteudo">
             <table border="a1">
@@ -35,16 +35,14 @@
                     <th>Preço</th>
                     <th>Remover</th>
                 </thead>
-                <tbody>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
+                <tbody id="tbody">
+                    
                 </tbody>
             </table>
 
         </div>
     </main>
     <script src="funcoes.js"></script>
+    <footer>by &copy;<a href="https://github.com/thiagoaugustoandrade" target="_blank">Thiago Andrade</a></footer>
 </body>
 </html>
