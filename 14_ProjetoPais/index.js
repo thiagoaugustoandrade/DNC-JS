@@ -1,4 +1,7 @@
+document.getElementById('card').style.setProperty('display', 'none', 'important')
+
 function Procurar(){
+    document.getElementById('card').style.setProperty('display', 'block', 'important')
     let pais = document.getElementById('pais').value
     let finalURL = `https://restcountries.com/v3.1/name/${pais}?fullText=true`
     console.log(finalURL)
