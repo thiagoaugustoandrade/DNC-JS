@@ -13,10 +13,18 @@ header img{
     margin-top: 30px;
     margin-left: 50px;
 }
+/*--------------------------------------------------*/
+
+#container{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
 
 #reviva{
     background-color: #514988;
-    width: 802px;
+    width: 40%;
     height: 694px;
     left: 0px;
     top: 118px;
@@ -24,13 +32,14 @@ header img{
     
 }
 #reviva h1{
+    display: flex;
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 85px;
     padding-top: 30px;
-    align-items: center;
+    margin-left: 15%;
     text-align: center;
 
     color: #F3C61F;
@@ -42,8 +51,9 @@ header img{
     font-size: 30px;
     color: white;
     text-align: center;
+   
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 #reviva p{
@@ -53,12 +63,13 @@ header img{
     height: 350px;
     font-weight: 400;
     font-size: 29px;
-    color: white;
     text-align: center;
-    margin-left: 6%;
+    color: white;
+    
+    margin-left: 15%;
 }
 
-#countdown{
+#contagem{
     width: 270px;
     height: 175px;
     left: 987px;
@@ -67,11 +78,20 @@ header img{
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 65px;
     line-height: 85px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
     color: #514988;
+}
+
+#video{
+    width: 880px?
+Height
+510px
+Top
+284px
+Left
+817px
 }
