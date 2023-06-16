@@ -24,12 +24,12 @@ header img{
 
 #reviva{
     background-color: #514988;
-    width: 40%;
+    width: 50%;
     height: 694px;
     left: 0px;
     top: 118px;
 
-    
+    align-items: center;
 }
 #reviva h1{
     display: flex;
@@ -39,7 +39,7 @@ header img{
     font-size: 70px;
     line-height: 85px;
     padding-top: 30px;
-    margin-left: 15%;
+    margin-left: 25%;
     text-align: center;
 
     color: #F3C61F;
@@ -52,46 +52,67 @@ header img{
     color: white;
     text-align: center;
    
-    padding-top: 30px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
 
 #reviva p{
     font-family: 'Verdana';
     font-style: normal;
-    width: 678px;
     height: 350px;
     font-weight: 400;
-    font-size: 29px;
+    font-size: 36px;
     text-align: center;
     color: white;
     
-    margin-left: 15%;
+    
 }
 
 #contagem{
-    width: 270px;
+    width: 239px;
     height: 175px;
     left: 987px;
     top: 103px;
+    
+    display: flex;
+    grid-auto-flow: column;
+    flex-direction: row;
+
+    columns: 33vw;
 
     font-family: 'Verdana';
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
     line-height: 85px;
-    display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+    
     color: #514988;
+    padding: 30px;
 }
 
+#texto{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+
+    color: #E33881;
+}
+
+
 #video{
-    width: 880px?
-Height
-510px
-Top
-284px
-Left
-817px
+    width: 1000px;
+    height: 10px;
+    Top: 284px;
+    Left: 817px;
+
+    padding-top: 140px;
+    margin-right: 60px;
+
 }
