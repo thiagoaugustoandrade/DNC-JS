@@ -39,7 +39,7 @@ header img{
     font-size: 70px;
     line-height: 85px;
     padding-top: 30px;
-    margin-left: 25%;
+    margin-left: 18%;
     text-align: center;
 
     color: #F3C61F;
@@ -62,24 +62,26 @@ header img{
     font-style: normal;
     height: 350px;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
     color: white;
+    padding-top: 10px;
     
     
 }
 
-#contagem{
-    width: 239px;
-    height: 175px;
+#timer{
+    width: 0px;
+    height: 100px;
     left: 987px;
     top: 103px;
     
-    display: flex;
+    display: grid;
     grid-auto-flow: column;
-    flex-direction: row;
+    grid-auto-columns: 14vw;
+    margin-top: 10px;
+   
 
-    columns: 33vw;
 
     font-family: 'Verdana';
     font-style: normal;
@@ -97,8 +99,11 @@ header img{
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
-    display: flex;
-    
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 14vw;
+
     align-items: center;
     text-align: center;
 
@@ -114,5 +119,11 @@ header img{
 
     padding-top: 140px;
     margin-right: 60px;
+
+}
+#coluna{
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
 
 }
